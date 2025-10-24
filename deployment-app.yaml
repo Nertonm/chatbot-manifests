@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: chatbot-abacate
-        image: nerton/chatbot-abacate
+        image: docker.io/nerton/chatbot-abacate:2.0.6
         ports:
         - containerPort: 8080
         env:
